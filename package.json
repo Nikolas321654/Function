@@ -11,5 +11,8 @@
   "dependencies": {
     "eslint": "^8.57.1",
     "hpw": "^0.2.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3"
   }
 }
