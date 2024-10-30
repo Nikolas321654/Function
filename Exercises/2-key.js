@@ -1,12 +1,12 @@
 'use strict';
 
 const generateKey = (length, possible) => {
-  let key = '';
+  let keys = '';
   for (let i = 0; i < length; i++) {
     const randomIndex = Math.floor(Math.random() * possible.length);
-    key += possible[randomIndex];
+    keys += possible[randomIndex];
   }
-  return key;
+  return keys;
 };
 
 module.exports = { generateKey };
